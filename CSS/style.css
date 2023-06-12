@@ -21,11 +21,12 @@ margin-left: 2px;
 
 main{
     margin-left: 5px;
+    width: 100%;
 }
+
 /*first section*/
 .main-title{
     font-size: 50px;
-    width: 85%;
     margin-top: 10px;
     margin-bottom: 0;
 }
@@ -40,4 +41,17 @@ main{
 }
 .marked-text{
     background-color: yellow;
+}
+
+/*second section*/
+.lorem-table{
+    border: 0px;
+    margin: 0;
+}
+.head-table{
+    background-color:hsl(198.27deg 79.12% 51.18%);
+    color:white;
+}
+.body-table{
+    background-color: hsl(192deg 71.43% 82.16%);
 }
